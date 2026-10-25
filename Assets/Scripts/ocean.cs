@@ -12,6 +12,7 @@ public class ocean : MonoBehaviour
     bool startDay;
     bool endDay;
     public int dayCounter = 1;
+    public int weatherCon;
     public Rect fishSpawnArea;
     [SerializeField] GameObject fishingHole;
     [SerializeField] GameObject oceanObject;
@@ -24,6 +25,8 @@ public class ocean : MonoBehaviour
     public enum weatherConditions { calm, Storm, Sunny, Cloudy, Snow, Hail, rain };
 
     public weatherConditions weather;
+
+    public List<GameObject> totalFish = new List<GameObject>();
 
     private void Awake()
     {
@@ -52,7 +55,7 @@ public class ocean : MonoBehaviour
 
         timerText.text = mins + ":" + Seconds;
 
-        if (currentTime > 300)
+        if (currentTime > 10)
         {
             Debug.Log("Day over");
             endDay = true;
@@ -78,13 +81,14 @@ public class ocean : MonoBehaviour
             float yPos = (Random.Range(fishSpawnArea.yMin, fishSpawnArea.yMax) / 10) /*- (Screen.height / 4)*/;
             GameObject newFish = Instantiate(fishingHole, new Vector3(xPos, 0, yPos), Quaternion.identity, gameObject.transform);
             newFish.transform.localScale = new Vector3(gameObject.transform.localScale.x * 2, gameObject.transform.localScale.y * 2, gameObject.transform.localScale.z * 2);
+            totalFish.Add(newFish);
         }
         
     }
 
     public void StartNewDay()
     {
-        int weatherCon = Random.Range(1, 8);
+        weatherCon = Random.Range(1, 8);
         int fishCount = Random.Range(5, 15);
         dayCounter += 1;
         GenerateWeather(weatherCon);
@@ -94,7 +98,6 @@ public class ocean : MonoBehaviour
 
     public int GenerateWeather(int number)
     {
-
         weatherConditions currentDish = weather;
 
         switch (currentDish)
@@ -142,6 +145,11 @@ public class ocean : MonoBehaviour
     private IEnumerator EndofDay()
     {
         endDay = true;
+        foreach (GameObject fish in totalFish)
+        {
+            totalFish.Remove(fish);
+            Destroy(fish);
+        }
         yield return new WaitForSeconds(5);
         StartNewDay();
         endDay = false;
