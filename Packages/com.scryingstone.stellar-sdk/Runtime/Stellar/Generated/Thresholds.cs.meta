@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 7a332b529cb9b8741b303d90a28f1ad0
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388642
+  packageName: Stellar RPC and XDR Serialization Tools
+  packageVersion: 1.0.0
+  assetPath: Packages/com.scryingstone.stellar-sdk/Runtime/Stellar/Generated/Thresholds.cs
+  uploadId: 969362

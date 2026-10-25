@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: a48c5872f3a06e541956d1c1f7d03eed
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388642
+  packageName: Stellar RPC and XDR Serialization Tools
+  packageVersion: 1.0.0
+  assetPath: Packages/com.scryingstone.stellar-sdk/Runtime/Stellar/Generated/ColdArchiveBucketEntry.cs
+  uploadId: 969362

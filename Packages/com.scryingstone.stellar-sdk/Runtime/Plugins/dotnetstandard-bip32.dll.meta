@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 70cdab56adbbb4a4082e2e6dbff84fdd
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388642
+  packageName: Stellar RPC and XDR Serialization Tools
+  packageVersion: 1.0.0
+  assetPath: Packages/com.scryingstone.stellar-sdk/Runtime/Plugins/dotnetstandard-bip32.dll
+  uploadId: 969362

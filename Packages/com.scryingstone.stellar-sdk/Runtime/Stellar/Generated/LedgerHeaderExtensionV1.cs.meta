@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 07eff24b7d33d1343a35705824e5f14d
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388642
+  packageName: Stellar RPC and XDR Serialization Tools
+  packageVersion: 1.0.0
+  assetPath: Packages/com.scryingstone.stellar-sdk/Runtime/Stellar/Generated/LedgerHeaderExtensionV1.cs
+  uploadId: 969362

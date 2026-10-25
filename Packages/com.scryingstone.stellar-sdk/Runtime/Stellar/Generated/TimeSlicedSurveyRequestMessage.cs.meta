@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 66fcc2ecf5f1dd24a9c167c9ece194a7
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388642
+  packageName: Stellar RPC and XDR Serialization Tools
+  packageVersion: 1.0.0
+  assetPath: Packages/com.scryingstone.stellar-sdk/Runtime/Stellar/Generated/TimeSlicedSurveyRequestMessage.cs
+  uploadId: 969362

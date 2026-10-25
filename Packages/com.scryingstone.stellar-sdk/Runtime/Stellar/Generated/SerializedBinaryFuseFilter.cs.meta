@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 5229e42347f014840b85587a6eef7e3e
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388642
+  packageName: Stellar RPC and XDR Serialization Tools
+  packageVersion: 1.0.0
+  assetPath: Packages/com.scryingstone.stellar-sdk/Runtime/Stellar/Generated/SerializedBinaryFuseFilter.cs
+  uploadId: 969362

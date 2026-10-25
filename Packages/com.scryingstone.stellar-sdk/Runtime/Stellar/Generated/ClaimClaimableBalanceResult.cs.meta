@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 841a554c7484c7246a43c61847369579
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388642
+  packageName: Stellar RPC and XDR Serialization Tools
+  packageVersion: 1.0.0
+  assetPath: Packages/com.scryingstone.stellar-sdk/Runtime/Stellar/Generated/ClaimClaimableBalanceResult.cs
+  uploadId: 969362

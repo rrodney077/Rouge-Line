@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: e123454908350e54ca3eda01474f9e61
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388642
+  packageName: Stellar RPC and XDR Serialization Tools
+  packageVersion: 1.0.0
+  assetPath: Packages/com.scryingstone.stellar-sdk/Runtime/RPC/Generated/GetLedgerEntriesParams.cs
+  uploadId: 969362

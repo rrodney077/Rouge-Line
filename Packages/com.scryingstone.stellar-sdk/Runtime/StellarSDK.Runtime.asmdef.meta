@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: d995804975edc214abb91aec0f8c8ff4
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388642
+  packageName: Stellar RPC and XDR Serialization Tools
+  packageVersion: 1.0.0
+  assetPath: Packages/com.scryingstone.stellar-sdk/Runtime/StellarSDK.Runtime.asmdef
+  uploadId: 969362

@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 99bc896fe01677e40ae090da348d9d59
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388642
+  packageName: Stellar RPC and XDR Serialization Tools
+  packageVersion: 1.0.0
+  assetPath: Packages/com.scryingstone.stellar-sdk/Runtime/Stellar/Generated/ColdArchiveBoundaryLeaf.cs
+  uploadId: 969362

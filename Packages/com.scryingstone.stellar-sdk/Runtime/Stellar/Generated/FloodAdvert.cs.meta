@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: d0395e81cee3d6b458abcc486ffb8c39
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388642
+  packageName: Stellar RPC and XDR Serialization Tools
+  packageVersion: 1.0.0
+  assetPath: Packages/com.scryingstone.stellar-sdk/Runtime/Stellar/Generated/FloodAdvert.cs
+  uploadId: 969362

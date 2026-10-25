@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: dc46ade8916ac0e40baf4beb1d45826a
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388642
+  packageName: Stellar RPC and XDR Serialization Tools
+  packageVersion: 1.0.0
+  assetPath: Packages/com.scryingstone.stellar-sdk/Runtime/Stellar/Generated/Memo.cs
+  uploadId: 969362

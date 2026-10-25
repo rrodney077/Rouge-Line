@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 24a51979d90c9cf4fb40da81233752ba
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388642
+  packageName: Stellar RPC and XDR Serialization Tools
+  packageVersion: 1.0.0
+  assetPath: Packages/com.scryingstone.stellar-sdk/Runtime/Stellar/Generated/ContractCodeCostInputs.cs
+  uploadId: 969362

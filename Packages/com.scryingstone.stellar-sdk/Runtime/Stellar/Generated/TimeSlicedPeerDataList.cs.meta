@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 133512fdd1f092a4ab26970fed136440
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388642
+  packageName: Stellar RPC and XDR Serialization Tools
+  packageVersion: 1.0.0
+  assetPath: Packages/com.scryingstone.stellar-sdk/Runtime/Stellar/Generated/TimeSlicedPeerDataList.cs
+  uploadId: 969362

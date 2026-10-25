@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 765f7b9f4596f5246a3741bf7f5515d4
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388642
+  packageName: Stellar RPC and XDR Serialization Tools
+  packageVersion: 1.0.0
+  assetPath: Packages/com.scryingstone.stellar-sdk/Runtime/RPC/Generated/GetHealthResult.cs
+  uploadId: 969362

@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 331f79875a607a3429260b757fe0c68f
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388642
+  packageName: Stellar RPC and XDR Serialization Tools
+  packageVersion: 1.0.0
+  assetPath: Packages/com.scryingstone.stellar-sdk/Runtime/Stellar/Generated/FeeBumpTransaction.cs
+  uploadId: 969362

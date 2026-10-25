@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 378f5352618f916418eab884d1f91237
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388642
+  packageName: Stellar RPC and XDR Serialization Tools
+  packageVersion: 1.0.0
+  assetPath: Packages/com.scryingstone.stellar-sdk/Runtime/Stellar/Generated/TransactionV0.cs
+  uploadId: 969362

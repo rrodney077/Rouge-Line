@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 28543d03c9cbb4b4e8d03e325a2e7573
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388642
+  packageName: Stellar RPC and XDR Serialization Tools
+  packageVersion: 1.0.0
+  assetPath: Packages/com.scryingstone.stellar-sdk/Runtime/Stellar/Generated/SCPEnvelope.cs
+  uploadId: 969362

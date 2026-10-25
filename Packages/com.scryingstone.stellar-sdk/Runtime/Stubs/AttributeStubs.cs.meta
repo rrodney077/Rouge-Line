@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: cc94ecd1e69b70d498b468ac8d255cd4
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388642
+  packageName: Stellar RPC and XDR Serialization Tools
+  packageVersion: 1.0.0
+  assetPath: Packages/com.scryingstone.stellar-sdk/Runtime/Stubs/AttributeStubs.cs
+  uploadId: 969362

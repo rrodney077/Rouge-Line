@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 681cec4ea064dac4c9d215a2d5f733b9
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388642
+  packageName: Stellar RPC and XDR Serialization Tools
+  packageVersion: 1.0.0
+  assetPath: Packages/com.scryingstone.stellar-sdk/Runtime/Stellar/Generated/SCPNomination.cs
+  uploadId: 969362

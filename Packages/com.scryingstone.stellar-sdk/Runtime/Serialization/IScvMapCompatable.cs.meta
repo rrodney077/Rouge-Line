@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: f7945c5208483504aac1a1d5b0d458b8
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388642
+  packageName: Stellar RPC and XDR Serialization Tools
+  packageVersion: 1.0.0
+  assetPath: Packages/com.scryingstone.stellar-sdk/Runtime/Serialization/IScvMapCompatable.cs
+  uploadId: 969362

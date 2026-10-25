@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 0dbf94e0351362840bc374c2cd5cc0a8
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388642
+  packageName: Stellar RPC and XDR Serialization Tools
+  packageVersion: 1.0.0
+  assetPath: Packages/com.scryingstone.stellar-sdk/Runtime/Stellar/Generated/LiquidityPoolDepositOp.cs
+  uploadId: 969362

@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 0ece2fc5f23fa5542ba22443e6f435e6
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388642
+  packageName: Stellar RPC and XDR Serialization Tools
+  packageVersion: 1.0.0
+  assetPath: Packages/com.scryingstone.stellar-sdk/Runtime/Stellar/Generated/PreconditionsV2.cs
+  uploadId: 969362

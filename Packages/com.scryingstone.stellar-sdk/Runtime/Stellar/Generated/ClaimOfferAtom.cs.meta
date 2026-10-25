@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: ca21095ca0c38d549bc15459716f42d9
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388642
+  packageName: Stellar RPC and XDR Serialization Tools
+  packageVersion: 1.0.0
+  assetPath: Packages/com.scryingstone.stellar-sdk/Runtime/Stellar/Generated/ClaimOfferAtom.cs
+  uploadId: 969362

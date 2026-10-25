@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 2da0ad39fa0d6c944b87468bbfdcd3eb
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388642
+  packageName: Stellar RPC and XDR Serialization Tools
+  packageVersion: 1.0.0
+  assetPath: Packages/com.scryingstone.stellar-sdk/Runtime/Stellar/Generated/FloodDemand.cs
+  uploadId: 969362

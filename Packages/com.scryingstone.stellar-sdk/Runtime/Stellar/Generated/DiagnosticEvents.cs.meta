@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: cee81723a516ebd408265a331343225b
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388642
+  packageName: Stellar RPC and XDR Serialization Tools
+  packageVersion: 1.0.0
+  assetPath: Packages/com.scryingstone.stellar-sdk/Runtime/Stellar/Generated/DiagnosticEvents.cs
+  uploadId: 969362

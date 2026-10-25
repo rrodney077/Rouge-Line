@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 6d7941cb0157b1e44a88682eb0a262eb
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388642
+  packageName: Stellar RPC and XDR Serialization Tools
+  packageVersion: 1.0.0
+  assetPath: Packages/com.scryingstone.stellar-sdk/Runtime/Stellar/Generated/LedgerHeaderFlags.cs
+  uploadId: 969362

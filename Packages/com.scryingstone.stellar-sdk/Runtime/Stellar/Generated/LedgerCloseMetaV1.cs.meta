@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 4e155b766ee2b5c4d8b16fe71d072daa
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388642
+  packageName: Stellar RPC and XDR Serialization Tools
+  packageVersion: 1.0.0
+  assetPath: Packages/com.scryingstone.stellar-sdk/Runtime/Stellar/Generated/LedgerCloseMetaV1.cs
+  uploadId: 969362

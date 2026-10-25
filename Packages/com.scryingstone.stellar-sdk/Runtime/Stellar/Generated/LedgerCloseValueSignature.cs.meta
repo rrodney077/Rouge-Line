@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: ff468a5e64144f64f97d28b14871084f
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388642
+  packageName: Stellar RPC and XDR Serialization Tools
+  packageVersion: 1.0.0
+  assetPath: Packages/com.scryingstone.stellar-sdk/Runtime/Stellar/Generated/LedgerCloseValueSignature.cs
+  uploadId: 969362

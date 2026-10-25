@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 745ebcfa00b4bf64882de0035bd43f8e
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388642
+  packageName: Stellar RPC and XDR Serialization Tools
+  packageVersion: 1.0.0
+  assetPath: Packages/com.scryingstone.stellar-sdk/Runtime/Stellar/Generated/ColdArchiveDeletedLeaf.cs
+  uploadId: 969362

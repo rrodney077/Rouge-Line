@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: ea9216285366e7140b1a96b023044b7b
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388642
+  packageName: Stellar RPC and XDR Serialization Tools
+  packageVersion: 1.0.0
+  assetPath: Packages/com.scryingstone.stellar-sdk/Runtime/Stellar/Generated/HashIDPreimage.cs
+  uploadId: 969362

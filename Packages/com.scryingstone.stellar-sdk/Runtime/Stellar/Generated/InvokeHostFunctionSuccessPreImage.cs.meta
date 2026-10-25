@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 43a38dda6d3c5d0478a1c9e2e99826b2
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388642
+  packageName: Stellar RPC and XDR Serialization Tools
+  packageVersion: 1.0.0
+  assetPath: Packages/com.scryingstone.stellar-sdk/Runtime/Stellar/Generated/InvokeHostFunctionSuccessPreImage.cs
+  uploadId: 969362

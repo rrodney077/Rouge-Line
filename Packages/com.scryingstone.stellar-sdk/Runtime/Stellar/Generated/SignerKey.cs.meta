@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 3f6961da4f6fae9459af78dcaa6dbb36
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388642
+  packageName: Stellar RPC and XDR Serialization Tools
+  packageVersion: 1.0.0
+  assetPath: Packages/com.scryingstone.stellar-sdk/Runtime/Stellar/Generated/SignerKey.cs
+  uploadId: 969362

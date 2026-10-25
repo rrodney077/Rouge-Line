@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 6904dcd625c10704582a999f6b5c50b1
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388642
+  packageName: Stellar RPC and XDR Serialization Tools
+  packageVersion: 1.0.0
+  assetPath: Packages/com.scryingstone.stellar-sdk/Runtime/Stellar/Generated/ClawbackOp.cs
+  uploadId: 969362

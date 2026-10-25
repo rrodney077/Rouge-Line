@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: f26d3f067dae5ee4195e3de45a434ed8
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388642
+  packageName: Stellar RPC and XDR Serialization Tools
+  packageVersion: 1.0.0
+  assetPath: Packages/com.scryingstone.stellar-sdk/Runtime/Stellar/Generated/ClaimableBalanceFlags.cs
+  uploadId: 969362

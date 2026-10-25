@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 872eb9c56efc91d4cb130789478a9d8e
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388642
+  packageName: Stellar RPC and XDR Serialization Tools
+  packageVersion: 1.0.0
+  assetPath: Packages/com.scryingstone.stellar-sdk/CHANGELOG.md
+  uploadId: 969362

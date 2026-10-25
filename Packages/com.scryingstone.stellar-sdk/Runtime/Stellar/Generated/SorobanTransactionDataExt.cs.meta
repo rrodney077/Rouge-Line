@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 88d29934a790465439d68d778076790c
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388642
+  packageName: Stellar RPC and XDR Serialization Tools
+  packageVersion: 1.0.0
+  assetPath: Packages/com.scryingstone.stellar-sdk/Runtime/Stellar/Generated/SorobanTransactionDataExt.cs
+  uploadId: 969362

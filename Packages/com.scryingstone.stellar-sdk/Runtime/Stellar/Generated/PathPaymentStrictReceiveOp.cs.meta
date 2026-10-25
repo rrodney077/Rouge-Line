@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: dd5be3c6616eb2842b0f6e4d18b4a977
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388642
+  packageName: Stellar RPC and XDR Serialization Tools
+  packageVersion: 1.0.0
+  assetPath: Packages/com.scryingstone.stellar-sdk/Runtime/Stellar/Generated/PathPaymentStrictReceiveOp.cs
+  uploadId: 969362

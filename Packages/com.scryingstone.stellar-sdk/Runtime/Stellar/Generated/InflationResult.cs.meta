@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 329944fdeb9e99f4ba329905112091cf
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388642
+  packageName: Stellar RPC and XDR Serialization Tools
+  packageVersion: 1.0.0
+  assetPath: Packages/com.scryingstone.stellar-sdk/Runtime/Stellar/Generated/InflationResult.cs
+  uploadId: 969362

@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: ebe174b252e7e164eb63dba39c738c3e
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388642
+  packageName: Stellar RPC and XDR Serialization Tools
+  packageVersion: 1.0.0
+  assetPath: Packages/com.scryingstone.stellar-sdk/Runtime/Utilities/StrKey.cs
+  uploadId: 969362

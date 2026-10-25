@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 17cd986a28e89ad4d9c8acffea206116
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388642
+  packageName: Stellar RPC and XDR Serialization Tools
+  packageVersion: 1.0.0
+  assetPath: Packages/com.scryingstone.stellar-sdk/Runtime/Stellar/Generated/SCVec.cs
+  uploadId: 969362

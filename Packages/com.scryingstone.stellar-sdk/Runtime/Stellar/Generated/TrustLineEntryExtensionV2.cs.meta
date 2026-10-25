@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 0273cf31990ac5b468c8c5626e53eff2
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388642
+  packageName: Stellar RPC and XDR Serialization Tools
+  packageVersion: 1.0.0
+  assetPath: Packages/com.scryingstone.stellar-sdk/Runtime/Stellar/Generated/TrustLineEntryExtensionV2.cs
+  uploadId: 969362

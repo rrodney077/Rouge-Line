@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 4508ad4222010784cbe8d35abe75bb81
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388642
+  packageName: Stellar RPC and XDR Serialization Tools
+  packageVersion: 1.0.0
+  assetPath: Packages/com.scryingstone.stellar-sdk/Runtime/Stellar/ProtoPrimitiveWrappers.cs
+  uploadId: 969362

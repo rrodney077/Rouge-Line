@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: eab139a3c77d70d449877873dd7d2ed9
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388642
+  packageName: Stellar RPC and XDR Serialization Tools
+  packageVersion: 1.0.0
+  assetPath: Packages/com.scryingstone.stellar-sdk/Runtime/Stellar/Generated/SorobanResources.cs
+  uploadId: 969362

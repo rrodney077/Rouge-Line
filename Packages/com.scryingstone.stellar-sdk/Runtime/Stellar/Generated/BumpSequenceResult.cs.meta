@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: af10a632a275e05468eb7fa0dd67a30f
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388642
+  packageName: Stellar RPC and XDR Serialization Tools
+  packageVersion: 1.0.0
+  assetPath: Packages/com.scryingstone.stellar-sdk/Runtime/Stellar/Generated/BumpSequenceResult.cs
+  uploadId: 969362

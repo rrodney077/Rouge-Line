@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 3997ea21e15e60e4f8b981ffd6a26239
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388642
+  packageName: Stellar RPC and XDR Serialization Tools
+  packageVersion: 1.0.0
+  assetPath: Packages/com.scryingstone.stellar-sdk/Runtime/Utilities/AsyncDelay.cs
+  uploadId: 969362

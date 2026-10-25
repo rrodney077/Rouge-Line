@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 04ae3cc216b621945a6c68b1145d8763
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388642
+  packageName: Stellar RPC and XDR Serialization Tools
+  packageVersion: 1.0.0
+  assetPath: Packages/com.scryingstone.stellar-sdk/Samples/Demo/DemoScene.unity
+  uploadId: 969362

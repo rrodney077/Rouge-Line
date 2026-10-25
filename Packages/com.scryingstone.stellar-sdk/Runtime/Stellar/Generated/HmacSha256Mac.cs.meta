@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 8163713806bd2c845a23a0fed2ec6ed6
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388642
+  packageName: Stellar RPC and XDR Serialization Tools
+  packageVersion: 1.0.0
+  assetPath: Packages/com.scryingstone.stellar-sdk/Runtime/Stellar/Generated/HmacSha256Mac.cs
+  uploadId: 969362

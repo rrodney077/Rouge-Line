@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 2634054382ec01c4f8e3921e824fbfca
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388642
+  packageName: Stellar RPC and XDR Serialization Tools
+  packageVersion: 1.0.0
+  assetPath: Packages/com.scryingstone.stellar-sdk/Runtime/Stellar/Generated/TxAdvertVector.cs
+  uploadId: 969362

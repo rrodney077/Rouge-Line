@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 2b55fd5cb243d3c48bea3470da0398ff
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388642
+  packageName: Stellar RPC and XDR Serialization Tools
+  packageVersion: 1.0.0
+  assetPath: Packages/com.scryingstone.stellar-sdk/Runtime/Stellar/Generated/TransactionMeta.cs
+  uploadId: 969362

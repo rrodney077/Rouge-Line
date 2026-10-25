@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 60a2315ac8f9b014f92e1455fd067454
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388642
+  packageName: Stellar RPC and XDR Serialization Tools
+  packageVersion: 1.0.0
+  assetPath: Packages/com.scryingstone.stellar-sdk/Runtime/RPC/RestorePreamble.cs
+  uploadId: 969362

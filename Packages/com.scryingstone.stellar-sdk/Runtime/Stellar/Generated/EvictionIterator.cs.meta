@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: c72bd609f9c03804a8c08ed281844e44
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388642
+  packageName: Stellar RPC and XDR Serialization Tools
+  packageVersion: 1.0.0
+  assetPath: Packages/com.scryingstone.stellar-sdk/Runtime/Stellar/Generated/EvictionIterator.cs
+  uploadId: 969362

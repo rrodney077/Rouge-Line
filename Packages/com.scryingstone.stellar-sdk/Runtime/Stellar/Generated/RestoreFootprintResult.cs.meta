@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 91d3b4131bc565644acdb78fa821511a
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388642
+  packageName: Stellar RPC and XDR Serialization Tools
+  packageVersion: 1.0.0
+  assetPath: Packages/com.scryingstone.stellar-sdk/Runtime/Stellar/Generated/RestoreFootprintResult.cs
+  uploadId: 969362

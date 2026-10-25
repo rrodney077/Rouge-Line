@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 11749d69a3f18e54f8dd14b5b302cb0e
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388642
+  packageName: Stellar RPC and XDR Serialization Tools
+  packageVersion: 1.0.0
+  assetPath: Packages/com.scryingstone.stellar-sdk/Runtime/Stellar/Generated/TxDemandVector.cs
+  uploadId: 969362

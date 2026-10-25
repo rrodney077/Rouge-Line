@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: f5480b57e57fe834ba5d71979afb5782
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388642
+  packageName: Stellar RPC and XDR Serialization Tools
+  packageVersion: 1.0.0
+  assetPath: Packages/com.scryingstone.stellar-sdk/Runtime/Stellar/Generated/SCNonceKey.cs
+  uploadId: 969362

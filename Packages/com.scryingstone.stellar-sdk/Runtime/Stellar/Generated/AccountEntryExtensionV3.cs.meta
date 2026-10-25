@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: ca1f1a82b2a46064c8842d0375bd5512
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388642
+  packageName: Stellar RPC and XDR Serialization Tools
+  packageVersion: 1.0.0
+  assetPath: Packages/com.scryingstone.stellar-sdk/Runtime/Stellar/Generated/AccountEntryExtensionV3.cs
+  uploadId: 969362

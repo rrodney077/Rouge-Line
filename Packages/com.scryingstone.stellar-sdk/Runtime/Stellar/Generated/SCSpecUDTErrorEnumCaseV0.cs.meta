@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: a6e7f0f5b6aa4344d9463688e243fd4b
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388642
+  packageName: Stellar RPC and XDR Serialization Tools
+  packageVersion: 1.0.0
+  assetPath: Packages/com.scryingstone.stellar-sdk/Runtime/Stellar/Generated/SCSpecUDTErrorEnumCaseV0.cs
+  uploadId: 969362

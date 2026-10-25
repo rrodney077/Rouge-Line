@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 771ad6d219664fa41a9fb16e11c4ce5c
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388642
+  packageName: Stellar RPC and XDR Serialization Tools
+  packageVersion: 1.0.0
+  assetPath: Packages/com.scryingstone.stellar-sdk/Runtime/Stellar/Generated/TrustLineFlags.cs
+  uploadId: 969362
