@@ -76,7 +76,6 @@ public class ocean : MonoBehaviour
     {
         for (int i = 0; i < count; i++)
         {
-            float xMax = oceanObject.transform.position.x;
             float xPos = (Random.Range(fishSpawnArea.xMin, fishSpawnArea.xMax) / 10) /*- (Screen.width / 4)*/;
             float yPos = (Random.Range(fishSpawnArea.yMin, fishSpawnArea.yMax) / 10) /*- (Screen.height / 4)*/;
             GameObject newFish = Instantiate(fishingHole, new Vector3(xPos, 0, yPos), Quaternion.identity, gameObject.transform);
@@ -98,9 +97,9 @@ public class ocean : MonoBehaviour
 
     public int GenerateWeather(int number)
     {
-        weatherConditions currentDish = weather;
+        weatherConditions currentWeather = weather;
 
-        switch (currentDish)
+        switch (currentWeather)
         {
             case weatherConditions.calm:
                 number = 1;
@@ -145,11 +144,11 @@ public class ocean : MonoBehaviour
     private IEnumerator EndofDay()
     {
         endDay = true;
-        foreach (GameObject fish in totalFish)
+        for (int i = 0; i < totalFish.Count; i++)
         {
-            totalFish.Remove(fish);
-            Destroy(fish);
+            Destroy(totalFish[i]);
         }
+        totalFish.Clear();
         yield return new WaitForSeconds(5);
         StartNewDay();
         endDay = false;

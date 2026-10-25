@@ -845,6 +845,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ocean
   dayCounter: 1
+  weatherCon: 0
   fishSpawnArea:
     serializedVersion: 2
     x: 0
@@ -857,6 +858,7 @@ MonoBehaviour:
   currentTime: 0
   stopCounting: 0
   weather: 0
+  totalFish: []
 --- !u!1 &1598408872
 GameObject:
   m_ObjectHideFlags: 0

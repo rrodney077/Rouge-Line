@@ -8,60 +8,60 @@ public class fishingHole : ocean
 {
     public int dangerLevel;
 
-    private void Awake()
+    public void Awake()
     {
-        if(calculateDifficulty() == GenerateWeather(weatherCon))
-        {
-            print("YIPPEE");
-        }
-    }
+        string condition;
+        weatherConditions currentWeather = weather;
 
-    public int calculateDifficulty()
-    {
-        int number;
-        weatherConditions currentDish = weather;
-
-        switch (currentDish)
+        switch (currentWeather)
         {
             case weatherConditions.calm:
-                number = 1;
-                return number;
+                condition = "calm";
+                return;
             //break;
 
             case weatherConditions.Cloudy:
-                number = 2;
-                return number;
+                condition = "cloudy";
+                return;
             //break;
 
             case weatherConditions.Hail:
-                number = 3;
-                return number;
+                condition = "hail";
+                return;
             //break;
 
             case weatherConditions.rain:
-                number = 4;
-                return number;
+                condition = "rain";
+                return;
             //break;
 
             case weatherConditions.Storm:
-                number = 5;
-                return number;
+                condition = "storm";
+                return;
             //break;
 
             case weatherConditions.Snow:
-                number = 6;
-                return number;
+                condition = "snow";
+                return;
             //break;
 
             case weatherConditions.Sunny:
-                number = 7;
-                return number;
+                condition = "sunny";
+                return;
                 //break;
-
         }
 
-        return 0;
+        return;
+        print(condition);
+        Debug.Log(weather);
+
+       /* if(weather == weatherConditions.calm)
+        {
+            print("CALM");
+        }*/
+
     }
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
