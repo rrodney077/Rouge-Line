@@ -12,11 +12,13 @@ public class UIManager : MonoBehaviour
     [SerializeField] MeshFilter upgradedBoat;
     [SerializeField] ocean oc;
     [SerializeField] GameObject shopPanel;
+    [SerializeField] GameObject stellar;
     GameObject oceanFloor;
     public TMP_Text moneyText;
     public int money;
 
     bool isOpen = false;
+    bool istrade = false;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -35,6 +37,15 @@ public class UIManager : MonoBehaviour
         else
         {
             shopPanel.SetActive(false);
+        }
+
+        if (istrade)
+        {
+            stellar.SetActive(true);
+        }
+        else
+        {
+            stellar.SetActive(false);
         }
     }
 
@@ -87,5 +98,10 @@ public class UIManager : MonoBehaviour
         }
         
         moneyText.text = "$" + money; 
+    }
+
+    public void Trade()
+    {
+        istrade = !istrade;
     }
 }
