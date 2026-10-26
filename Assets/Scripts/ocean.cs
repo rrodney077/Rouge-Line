@@ -18,6 +18,7 @@ public class ocean : MonoBehaviour
     [SerializeField] GameObject oceanObject;
 
     public TMP_Text timerText;
+    public TMP_Text dayText;
     public float currentTime;
 
     public bool stopCounting;
@@ -55,7 +56,7 @@ public class ocean : MonoBehaviour
 
         timerText.text = mins + ":" + Seconds;
 
-        if (currentTime > 10)
+        if (currentTime > 300)
         {
             Debug.Log("Day over");
             endDay = true;
@@ -78,8 +79,8 @@ public class ocean : MonoBehaviour
         {
             float xPos = (Random.Range(fishSpawnArea.xMin, fishSpawnArea.xMax) / 10) /*- (Screen.width / 4)*/;
             float yPos = (Random.Range(fishSpawnArea.yMin, fishSpawnArea.yMax) / 10) /*- (Screen.height / 4)*/;
-            GameObject newFish = Instantiate(fishingHole, new Vector3(xPos, 0, yPos), Quaternion.identity, gameObject.transform);
-            newFish.transform.localScale = new Vector3(gameObject.transform.localScale.x * 2, gameObject.transform.localScale.y * 2, gameObject.transform.localScale.z * 2);
+            GameObject newFish = Instantiate(fishingHole, new Vector3(xPos, 0.7f, yPos), Quaternion.identity, gameObject.transform.parent = null);
+            //newFish.transform.localScale = new Vector3(gameObject.transform.localScale.x * 2, gameObject.transform.localScale.y * 2, gameObject.transform.localScale.z * 2);
             totalFish.Add(newFish);
         }
         
@@ -88,8 +89,9 @@ public class ocean : MonoBehaviour
     public void StartNewDay()
     {
         weatherCon = Random.Range(1, 8);
-        int fishCount = Random.Range(5, 15);
+        int fishCount = Random.Range(20, 30);
         dayCounter += 1;
+        dayText.text = "DAY " + dayCounter;
         GenerateWeather(weatherCon);
         SpawnFish(fishCount);
         DayTimer();
