@@ -8,6 +8,7 @@ public class PointerController : MonoBehaviour
     [SerializeField] RectTransform SafeZone;
     [SerializeField] Transform pointA;
     [SerializeField] Transform pointB;
+    [SerializeField] ocean ocean;
 
     public float moveSpeed = 200f;
 
@@ -17,6 +18,7 @@ public class PointerController : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        ocean = GetComponent<ocean>();
         pointerTranform = GetComponent<RectTransform>();
         targetPos = pointB.position;
     }
@@ -62,4 +64,12 @@ public class PointerController : MonoBehaviour
             
         }
     }
+
+    /*public void AddToFishCount()
+    {
+        if (success)
+        {
+            ocean.fishCount += ocean.fishYield;
+        }
+    }*/
 }

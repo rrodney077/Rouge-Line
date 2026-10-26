@@ -13,15 +13,19 @@ public class ocean : MonoBehaviour
     bool endDay;
     public int dayCounter = 1;
     public int weatherCon;
+    public int fishYield;
+    public int fishCount = 0;
     public Rect fishSpawnArea;
     [SerializeField] GameObject fishingHole;
     [SerializeField] GameObject oceanObject;
 
     public TMP_Text timerText;
     public TMP_Text dayText;
+    public TMP_Text fishText;
     public float currentTime;
 
     public bool stopCounting;
+    public bool isUpgraded;
 
     public enum weatherConditions { calm, Storm, Sunny, Cloudy, Snow, Hail, rain };
 
@@ -45,6 +49,7 @@ public class ocean : MonoBehaviour
     void Update()
     {
         DayTimer();
+        fishText.text = "fish: " + fishCount;
         //Debug.Log(weather + dayCounter);
     }
 
@@ -94,6 +99,7 @@ public class ocean : MonoBehaviour
         dayText.text = "DAY " + dayCounter;
         GenerateWeather(weatherCon);
         SpawnFish(fishCount);
+        fishYield = calculateFishYield(weatherCon);
         DayTimer();
     }
 
@@ -166,4 +172,26 @@ public class ocean : MonoBehaviour
     {
         GUI.Box(fishSpawnArea, "box");
     }
+
+    public int calculateFishYield(int baseFish)
+    {
+        int yield;
+
+        if (!isUpgraded)
+        {
+            yield = baseFish + 3;
+            return yield;
+        }
+
+        if (isUpgraded)
+        {
+            yield = baseFish + 100;
+            return yield;
+        }
+
+        return baseFish;
+        
+    }
+
+
 }

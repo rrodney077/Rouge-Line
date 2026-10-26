@@ -13,6 +13,8 @@ public class CatchFishRod : MonoBehaviour
     static float catchRate = 0;
     [SerializeField] RectTransform fishTarget;
     [SerializeField] RectTransform targetArea;
+    [SerializeField] ocean o;
+    public GameObject plane;
     /*[SerializeField] Transform pointA;
     [SerializeField] Transform pointB;*/
 
@@ -25,6 +27,8 @@ public class CatchFishRod : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        plane = GameObject.Find("plane");
+        o = plane.GetComponent<ocean>();
         targetPos = pointArray[Random.Range(0, 1)].position;
     }
 
@@ -113,6 +117,12 @@ public class CatchFishRod : MonoBehaviour
         //Debug.Log(catchRate);
     }
 
-    
-   
+    public void AddToFishCount()
+    {
+        if (success)
+        {
+            o.fishCount += o.fishYield;
+        }
+    }
+
 }

@@ -7,10 +7,10 @@ using Random = UnityEngine.Random;
 public class fishingHole : ocean
 {
     public int dangerLevel;
+    public string condition;
 
     public void Awake()
     {
-        string condition;
         weatherConditions currentWeather = weather;
 
         switch (currentWeather)
@@ -55,10 +55,12 @@ public class fishingHole : ocean
         print(condition);
         Debug.Log(weather);
 
-       /* if(weather == weatherConditions.calm)
-        {
-            print("CALM");
-        }*/
+        /* if(weather == weatherConditions.calm)
+         {
+             print("CALM");
+         }*/
+
+        fishYield = calculateFishYield(weatherCon);
 
     }
 
