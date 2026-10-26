@@ -94,7 +94,7 @@ public class CatchFishRod : MonoBehaviour
             catchRate -=  2* Time.deltaTime; 
         }
 
-        if (catchRate >= 25)
+        if (catchRate >= 50)
         {
             resultText.text = "Caught!";
             resultText.color = Color.green;

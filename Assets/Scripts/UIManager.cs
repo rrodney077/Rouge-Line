@@ -8,14 +8,14 @@ using System.Collections;
 
 public class UIManager : MonoBehaviour
 {
-    [SerializeField] MeshFilter playerBoat;
-    [SerializeField] MeshFilter upgradedBoat;
+    [SerializeField] GameObject playerBoat;
+    [SerializeField] GameObject upgradedBoat;
     [SerializeField] ocean oc;
     [SerializeField] GameObject shopPanel;
     [SerializeField] GameObject stellar;
     GameObject oceanFloor;
     public TMP_Text moneyText;
-    public int money;
+    public int money = 5;
 
     bool isOpen = false;
     bool istrade = false;
@@ -53,7 +53,8 @@ public class UIManager : MonoBehaviour
     {
         if(money > 0)
         {
-            playerBoat = upgradedBoat;
+            playerBoat.SetActive(false);
+            upgradedBoat.SetActive(true);
             money -= 1;
         }
         else
@@ -67,8 +68,8 @@ public class UIManager : MonoBehaviour
     {
         if(money > 0)
         {
-            money -= 1;
             oc.isUpgraded = true;
+            money -= 1;
         }
         else
         {
@@ -90,7 +91,7 @@ public class UIManager : MonoBehaviour
         {
             int sellAmount = oc.fishCount * 7;
             money += sellAmount;
-            print(oc.fishCount + " SOLD");
+            print(oc.fishCount + " FISH SOLD");
         }
         else
         {
