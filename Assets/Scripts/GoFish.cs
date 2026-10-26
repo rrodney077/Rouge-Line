@@ -11,12 +11,15 @@ public class GoFish : MonoBehaviour
     [SerializeField] GameObject CatchingMinigame1;
     [SerializeField] CharacterController cc;
     [SerializeField] SpriteRenderer excalim;
+    [SerializeField] ocean oce;
+    GameObject test;
 
     public bool canInteract = true;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-
+        test = GameObject.Find("Plane");
+        oce = test.GetComponent<ocean>();
     }
 
     // Update is called once per frame
@@ -65,6 +68,7 @@ public class GoFish : MonoBehaviour
         if (transform.GetComponentInChildren<CatchFishRod>() && transform.GetComponentInChildren<CatchFishRod>().success)
         {
             Destroy(transform.GetComponentInChildren<CatchFishRod>().gameObject);
+            oce.fishCount += oce.fishYield;
             Debug.Log("Success");
             StartCoroutine("InteractReset");
         }

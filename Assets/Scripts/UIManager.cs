@@ -11,7 +11,12 @@ public class UIManager : MonoBehaviour
     [SerializeField] MeshFilter playerBoat;
     [SerializeField] MeshFilter upgradedBoat;
     [SerializeField] ocean oc;
+    [SerializeField] GameObject shopPanel;
     GameObject oceanFloor;
+    public TMP_Text moneyText;
+    public int money;
+
+    bool isOpen = false;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -23,16 +28,64 @@ public class UIManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (isOpen)
+        {
+            shopPanel.SetActive(true);
+        }
+        else
+        {
+            shopPanel.SetActive(false);
+        }
     }
 
     public void UpgradeBoat()
     {
-        playerBoat = upgradedBoat;
+        if(money > 0)
+        {
+            playerBoat = upgradedBoat;
+            money -= 1;
+        }
+        else
+        {
+            print("you cant buy");
+        }
+        
     }
 
     public void UpgradeEquipment()
     {
-        oc.isUpgraded = true;
+        if(money > 0)
+        {
+            money -= 1;
+            oc.isUpgraded = true;
+        }
+        else
+        {
+            print("you can't buy");
+        }
+        
+    }
+
+    public void OpenPanel()
+    {
+        // shopPanel.SetActive(shopPanel.activeSelf);
+
+        isOpen = !isOpen;
+    }
+
+    public void Sell()
+    {
+        if(oc.fishCount > 0)
+        {
+            int sellAmount = oc.fishCount * 7;
+            money += sellAmount;
+            print(oc.fishCount + " SOLD");
+        }
+        else
+        {
+            print("you have nothing to sell");
+        }
+        
+        moneyText.text = "$" + money; 
     }
 }

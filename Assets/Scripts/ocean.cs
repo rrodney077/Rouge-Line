@@ -36,9 +36,9 @@ public class ocean : MonoBehaviour
     private void Awake()
     {
         FishingArea();
-        weather = weatherConditions.calm;
+        StartNewDay();
         startDay = true;
-        SpawnFish(10);
+        //SpawnFish(10);
     }
     void Start()
     {
@@ -61,7 +61,7 @@ public class ocean : MonoBehaviour
 
         timerText.text = mins + ":" + Seconds;
 
-        if (currentTime > 300)
+        if (currentTime > 120)
         {
             Debug.Log("Day over");
             endDay = true;

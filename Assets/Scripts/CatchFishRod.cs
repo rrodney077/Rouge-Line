@@ -101,6 +101,7 @@ public class CatchFishRod : MonoBehaviour
             targetPos = fishTarget.position;
             direction = 0f;
             success = true;
+            catchRate = 0;
         }
 
         else if (catchRate <= -10)
@@ -110,6 +111,7 @@ public class CatchFishRod : MonoBehaviour
             targetPos = fishTarget.position;
             direction = 0f;
             destroyNow = true;
+            catchRate = 0;
         }
 
         string Seconds = (catchRate % 60).ToString("f2");
