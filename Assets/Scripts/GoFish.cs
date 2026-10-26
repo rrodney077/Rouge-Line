@@ -8,6 +8,7 @@ public class GoFish : MonoBehaviour
     [SerializeField] Transform interactBox;
     [SerializeField] LayerMask fishingLayer;
     [SerializeField] GameObject CastingMinigame1;
+    [SerializeField] GameObject CatchingMinigame1;
     [SerializeField] CharacterController cc;
     [SerializeField] SpriteRenderer excalim;
 
@@ -39,13 +40,42 @@ public class GoFish : MonoBehaviour
             excalim.enabled = false;
         }
 
-        if(transform.GetComponentInChildren<PointerController>() && transform.GetComponentInChildren<PointerController>().destroyNow)
+        HandleCastMinigame();
+        HandleCatchingMinigame();
+    }
+    
+    void HandleCastMinigame()
+    {
+        if (transform.GetComponentInChildren<PointerController>() && transform.GetComponentInChildren<PointerController>().success)
+        {
+            Destroy(transform.GetComponentInChildren<PointerController>().leader);
+            Instantiate(CatchingMinigame1, transform);
+           // StartCoroutine("InteractReset");
+        }
+
+        if (transform.GetComponentInChildren<PointerController>() && transform.GetComponentInChildren<PointerController>().destroyNow)
         {
             Destroy(transform.GetComponentInChildren<PointerController>().leader);
             StartCoroutine("InteractReset");
         }
     }
-    
+
+    void HandleCatchingMinigame()
+    {
+        if (transform.GetComponentInChildren<CatchFishRod>() && transform.GetComponentInChildren<CatchFishRod>().success)
+        {
+            Destroy(transform.GetComponentInChildren<CatchFishRod>().gameObject);
+            Debug.Log("Success");
+            StartCoroutine("InteractReset");
+        }
+
+        if (transform.GetComponentInChildren<CatchFishRod>() && transform.GetComponentInChildren<CatchFishRod>().destroyNow)
+        {
+            Destroy(transform.GetComponentInChildren<CatchFishRod>().gameObject);
+            Debug.Log("Failure");
+            StartCoroutine("InteractReset");
+        }
+    }
     private IEnumerator InteractReset()
     {
         yield return new WaitForSeconds(.5f);

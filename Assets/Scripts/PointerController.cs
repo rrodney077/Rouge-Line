@@ -3,6 +3,7 @@
 public class PointerController : MonoBehaviour
 {
     public bool destroyNow = false;
+    public bool success = false;
     public GameObject leader;
     [SerializeField] RectTransform SafeZone;
     [SerializeField] Transform pointA;
@@ -51,6 +52,7 @@ public class PointerController : MonoBehaviour
         if (RectTransformUtility.RectangleContainsScreenPoint(SafeZone, pointerTranform.position, null))
         {
             Debug.Log("success");
+            success = true;
         }
         else
         {

@@ -45,7 +45,7 @@ public class ocean : MonoBehaviour
     void Update()
     {
         DayTimer();
-        Debug.Log(weather + dayCounter);
+        //Debug.Log(weather + dayCounter);
     }
 
     void DayTimer()
